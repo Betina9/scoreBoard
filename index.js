@@ -39,3 +39,15 @@ function addThreePointsGuest() {
   let guestPoints = document.querySelector(".score2");
   guestPoints.innerText = guestScore;
 }
+
+function newGame() {
+  homeScore = 0;
+  let homePoints = document.querySelector(".score");
+  homePoints.innerText = homeScore;
+}
+
+function newGame2() {
+  guestScore = 0;
+  let guestPoints = document.querySelector(".score2");
+  guestPoints.innerText = guestScore;
+}
